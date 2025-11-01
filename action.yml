@@ -30,7 +30,7 @@ runs:
     - name: Checkout Step
       uses: actions/checkout@v3
     - name: Azure Login
-      uses: Azure/login@v1.4.6
+      uses: Azure/login@v1.6.1
       with:
         client-id: ${{ inputs.azureClientId }}
         tenant-id: ${{ inputs.azureTenantId }}
